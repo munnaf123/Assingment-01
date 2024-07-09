@@ -40,6 +40,18 @@ header p{
     padding: 18px 20px;
     border-radius: 5px;
 }
+/*main part*/
+.about-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.main-des{
+    display: flex;
+    justify-content: space-around;
+}
+
    
 
 
