@@ -41,16 +41,72 @@ header p{
     border-radius: 5px;
 }
 /*main part*/
+.about{
+    width: 85%;
+    height: 1200px;
+    margin: 0 auto;
+    border: 2px solid none;
+    margin-top: 70px;
+}
 .about-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* margin: 80%; */
 }
-.main-des{
+.main-des1{
     display: flex;
-    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 96px;
 }
+.main-des2{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.main-div{
+    width: 55%;
+    margin: 0 auto;
+}
+.main-des3{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+/*button*/
+.btn-main{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.sub-title{
+    color: rgba(13, 19, 33, 0.7);;
+    font-weight: bold;
+    font-size: 24px;
+}
+/*main-titlepart*/
+.main-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+.main-sub{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px auto;
+}
+/*videopart*/
 
    
 
