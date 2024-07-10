@@ -3,6 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.textdc{
+    text-decoration: none;
+}
 header{
     background-image: url(../image/assets/Hero-bg.png);
     /* position: absolute; */
@@ -90,6 +93,7 @@ header p{
     opacity: 0.7;
 }
 .sub-title{
+    display: inline-block;
     color: rgba(13, 19, 33, 0.7);;
     font-weight: bold;
     font-size: 24px;
@@ -98,52 +102,79 @@ header p{
 .main-title{
     text-align: center;
     color: black;
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 65px;
 }
-.main-sub{
-    color: #757575;
+.main-sub1{
+     color: #757575;
     font-weight: 400;
     font-size: 15px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
     margin: 5px;
     padding: 3px auto;
+    opacity: 0.7;
 }
-.main-sub2{
+.main-sub{
+    /* color: #757575;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    padding: 3px auto;
+    opacity: 0.7; */
+     width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0d1321;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.7;
+}
+/* .main-sub2{
     color: #757575;
     font-weight: 300;
     font-size: 14px;
     margin-top: 5px;
     padding: 10px auto;
-}
+} */
 /*videopart*/
 .video-margin{
-    width: 840px;
-    height: 410px;
-    padding: 32px;
-    margin: 48px 0;
+    /* width: 50%;
+    margin: 0 auto;
+    height: auto;
+    padding: 27px;
+    display: flex;
     box-sizing: border-box;
-    border: 4px solid rgba(13, 19, 33, 0.2);
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px; */
+    width: 800px;
+    height: 410px;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    margin-left: 200px;
 
 }
-.show-video{
-    width: 85%;
-    height: 700px;
-    margin: 0 auto;
-    border: 2px solid none;
-    margin-top: 70px;
-}
-.video-r{
-    border-radius: 16px;
-    margin: 10px 0;
-    
-}
 .video-jhn{
-    width: 50%;
-    height: 400px;
+    /* width: 100%;
     margin: 0 auto;
-    margin-top: 60px;
+    padding-top: 0px;
+    border-radius: 16px; */
+    padding-left: 50px;
+    margin: 50px 0px;
+    padding-top: 0px;
+    padding-right: 50px;
+    width: 600px;
+    margin-left: 90px;
+
 }
 
 /* M-sec-2 */
@@ -207,16 +238,21 @@ a{
 }
 /* m-support */
 .m-support{
-    width: 50%;
+    width: 1140px;
+    height: 313px;
     margin: 0 auto;
     height: 324px;
+    border: 2px solid none;
+    margin-top: 50px;
 }
-.support{
+ .support{
+    display: flex;
+    flex-direction: column;
     background-image: url("../image/assets/handshake.jpg");
-    width: 900px;
-    height: 400px;
-    margin-left: 120px;
-    padding: 44px 38px 44px 38px;
+    width: 110%;
+    height: 110%;
+    margin: initial;
+    /* padding: 44px 38px 44px 38px; */
     border-radius: 16px;
     justify-content: center;
     align-items: center;
@@ -239,6 +275,8 @@ a{
 }
 .sup{
     display: flex;
+    width: 50%;
+    margin: 0 auto;
     align-items: center;
     padding: 0 155px;
 }
@@ -256,14 +294,34 @@ a{
 .sub-btn{
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    
     padding: 17px 20px 17px 20px;
     width: 120px;
     height: 57px;
     border: none;
     cursor: pointer;
 }
-   
+   /* footer */
+.footer{
+    /* margin-top: 25px; */
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.foot-title{
+    width: 450px;
+    height: 24px;
+    align-items: center;
+    margin: 0px 16px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
