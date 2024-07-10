@@ -42,11 +42,12 @@ header p{
 }
 /*main part*/
 .about{
-    width: 85%;
-    height: 1200px;
+    padding: 50px 77px 50px 77px;
+    background-color: rgba(13,19, 33, 0.04);
+    width: 60%;
     margin: 0 auto;
     border: 2px solid none;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .about-title{
     display: flex;
@@ -55,30 +56,29 @@ header p{
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    margin-top: 50px;
-    /* margin: 80%; */
+    margin-top: 5px;
 }
-.main-des1{
+.main-des{
+    display: flex;
+    width: 50%;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 96px;
+    padding: 67px;
+    background-color: white;
+    border-radius: 18px;
+}
+/* .main-des2{
     display: flex;
     width: 50%;
     margin: 0 auto;
     margin-top: 96px;
-}
-.main-des2{
-    display: flex;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 96px;
-}
+    background-color:white;
+} */
 .main-div{
-    width: 55%;
+
+    width: 60%;
     margin: 0 auto;
-}
-.main-des3{
-    display: flex;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 96px;
 }
 /*button*/
 .btn-main{
@@ -96,18 +96,173 @@ header p{
 }
 /*main-titlepart*/
 .main-title{
+    text-align: center;
+    color: black;
+    font-size: 45px;
     font-weight: 800;
-    font-size: 32px;
+    line-height: 65px;
 }
 .main-sub{
     color: #757575;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 3px auto;
+}
+.main-sub2{
+    color: #757575;
+    font-weight: 300;
+    font-size: 14px;
     margin-top: 5px;
-    padding: 5px auto;
+    padding: 10px auto;
 }
 /*videopart*/
+.video-margin{
+    width: 840px;
+    height: 410px;
+    padding: 32px;
+    margin: 48px 0;
+    box-sizing: border-box;
+    border: 4px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 
+}
+.show-video{
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid none;
+    margin-top: 70px;
+}
+.video-r{
+    border-radius: 16px;
+    margin: 10px 0;
+    
+}
+.video-jhn{
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* M-sec-2 */
+
+.m-card{
+    text-align: center;
+    margin: 0px 100px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 70px;
+}
+.card-bg-color{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    margin: 0px 24px;
+    padding: 40px;
+    height: 600px;
+}
+.c-img{
+    width: 56px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.card-title{
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+.card-description{
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+    opacity: 0.7;
+    margin: 8px 0px;
+
+}
+a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+.a-tag{
+    margin-top: 50px;
+}
+.js-img-colore{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.html-img-colore{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+/* m-support */
+.m-support{
+    width: 50%;
+    margin: 0 auto;
+    height: 324px;
+}
+.support{
+    background-image: url("../image/assets/handshake.jpg");
+    width: 900px;
+    height: 400px;
+    margin-left: 120px;
+    padding: 44px 38px 44px 38px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.support-title{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;   
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 124px;
+    opacity: 0.7;
+}
+.sup{
+    display: flex;
+    align-items: center;
+    padding: 0 155px;
+}
+.input-text{
+    width: 320px;
+    height: 57px;
+    padding: 19px 20px 19px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 54px 38px;
+
+}
+.sub-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 57px;
+    border: none;
+    cursor: pointer;
+}
    
 
 
